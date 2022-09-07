@@ -9,7 +9,7 @@ import UIKit
 import SnapKit
 import DropDown
 
-class MainViewController: UIViewController, MainViewPresenterInputProtocol {
+class MainViewController: BaseViewController, MainViewPresenterInputProtocol {
     
 //MARK: - UI Components
     
@@ -91,9 +91,15 @@ class MainViewController: UIViewController, MainViewPresenterInputProtocol {
         }
     }
     
+    private var dateFormatter: DateFormatter = {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "YYYY-MM-dd"
+        return dateFormatter
+    }()
+    
     //MARK: - Dependencies
     
-    private var presenter: MainViewPresenterProtocol!
+    var presenter: MainViewPresenterProtocol!
     
     //MARK: - Lifecycle
     
@@ -101,8 +107,17 @@ class MainViewController: UIViewController, MainViewPresenterInputProtocol {
         super.viewDidLoad()
         addViews()
         configureConstraints()
+        setupDefaultValue()
         setupActions()
-        
+    }
+    
+    //MARK: - Setup
+    
+    fileprivate func setupDefaultValue() {
+        let cameraType = CameraType.allCases
+        camera = cameraType.first!.key
+        let date = Date()
+        self.date = dateFormatter.string(from: date)
     }
     
     fileprivate func addViews() {
@@ -110,7 +125,6 @@ class MainViewController: UIViewController, MainViewPresenterInputProtocol {
         view.addSubview(titleLabel)
         view.addSubview(stackView)
         stackView.addSubview(selectionStackView)
-
     }
     
     //MARK: - Setup Constraints
@@ -160,8 +174,6 @@ class MainViewController: UIViewController, MainViewPresenterInputProtocol {
     }
     
     @objc func dateDidChanged(sender: UIDatePicker) {
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "YYYY-MM-dd"
         let dateString = dateFormatter.string(from: sender.date)
         self.date = dateString
         datePicker?.isHidden = true

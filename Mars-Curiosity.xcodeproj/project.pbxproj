@@ -7,15 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4511950228C8A8C20029ED08 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4511950128C8A8C20029ED08 /* BaseViewController.swift */; };
+		451719A128C5B4AF001F57F8 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 451719A028C5B4AF001F57F8 /* SnapKit */; };
+		45184EAD28C732F100672FDC /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45184EAC28C732F100672FDC /* RequestProtocol.swift */; };
+		45184EAF28C7331500672FDC /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45184EAE28C7331500672FDC /* HTTPMethod.swift */; };
+		45184EB128C7333E00672FDC /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45184EB028C7333E00672FDC /* NetworkError.swift */; };
+		45184EB328C7340500672FDC /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45184EB228C7340500672FDC /* RequestManager.swift */; };
+		45184EB528C7344200672FDC /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45184EB428C7344200672FDC /* DataParser.swift */; };
+		45184EB828C736B600672FDC /* CameraType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45184EB728C736B600672FDC /* CameraType.swift */; };
+		45184EBA28C7499500672FDC /* MainViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45184EB928C7499500672FDC /* MainViewPresenter.swift */; };
+		45184EBD28C74D6200672FDC /* PhotoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45184EBC28C74D6200672FDC /* PhotoListViewController.swift */; };
+		45184EC128C7544500672FDC /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45184EC028C7544500672FDC /* Router.swift */; };
+		45184EC328C7554D00672FDC /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45184EC228C7554D00672FDC /* CameraModel.swift */; };
+		45184EC528C7978A00672FDC /* PhotoCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45184EC428C7978A00672FDC /* PhotoCollectionViewDataSource.swift */; };
+		45184EC728C797EE00672FDC /* PhotoListViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45184EC628C797EE00672FDC /* PhotoListViewPresenter.swift */; };
+		45184EC928C7984C00672FDC /* PhotoViewModelResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45184EC828C7984C00672FDC /* PhotoViewModelResponse.swift */; };
+		45184ECC28C79AC700672FDC /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45184ECB28C79AC700672FDC /* PhotoDetailViewController.swift */; };
+		45184ECE28C7AF4500672FDC /* RequestPhotoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45184ECD28C7AF4500672FDC /* RequestPhotoList.swift */; };
+		45184ED228C7BC0000672FDC /* AlertTrait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45184ED128C7BC0000672FDC /* AlertTrait.swift */; };
+		45184ED828C88AAB00672FDC /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 45184ED728C88AAB00672FDC /* Kingfisher */; };
+		45184EDA28C89A7C00672FDC /* PhotoDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45184ED928C89A7C00672FDC /* PhotoDetailPresenter.swift */; };
 		4520C12B28C58F9F004DBC92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520C12A28C58F9F004DBC92 /* AppDelegate.swift */; };
 		4520C12D28C58F9F004DBC92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520C12C28C58F9F004DBC92 /* SceneDelegate.swift */; };
-		4520C12F28C58F9F004DBC92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520C12E28C58F9F004DBC92 /* ViewController.swift */; };
-		4520C13228C58F9F004DBC92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4520C13028C58F9F004DBC92 /* Main.storyboard */; };
+		4520C12F28C58F9F004DBC92 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520C12E28C58F9F004DBC92 /* MainViewController.swift */; };
 		4520C13428C58FA1004DBC92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4520C13328C58FA1004DBC92 /* Assets.xcassets */; };
 		4520C13728C58FA1004DBC92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4520C13528C58FA1004DBC92 /* LaunchScreen.storyboard */; };
 		4520C14228C58FA1004DBC92 /* Mars_CuriosityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520C14128C58FA1004DBC92 /* Mars_CuriosityTests.swift */; };
 		4520C14C28C58FA1004DBC92 /* Mars_CuriosityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520C14B28C58FA1004DBC92 /* Mars_CuriosityUITests.swift */; };
 		4520C14E28C58FA1004DBC92 /* Mars_CuriosityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520C14D28C58FA1004DBC92 /* Mars_CuriosityUITestsLaunchTests.swift */; };
+		4520C15B28C593CB004DBC92 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520C15A28C593CB004DBC92 /* Builder.swift */; };
+		4520C16528C5A900004DBC92 /* Dosis-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4520C15E28C5A900004DBC92 /* Dosis-Medium.ttf */; };
+		4520C16628C5A900004DBC92 /* Dosis-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4520C15F28C5A900004DBC92 /* Dosis-Regular.ttf */; };
+		4520C16728C5A900004DBC92 /* Dosis-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4520C16028C5A900004DBC92 /* Dosis-ExtraBold.ttf */; };
+		4520C16828C5A900004DBC92 /* Dosis-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4520C16128C5A900004DBC92 /* Dosis-SemiBold.ttf */; };
+		4520C16928C5A900004DBC92 /* Dosis-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4520C16228C5A900004DBC92 /* Dosis-Bold.ttf */; };
+		4520C16A28C5A900004DBC92 /* Dosis-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4520C16328C5A900004DBC92 /* Dosis-ExtraLight.ttf */; };
+		4520C16B28C5A900004DBC92 /* Dosis-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4520C16428C5A900004DBC92 /* Dosis-Light.ttf */; };
+		45B731A628C5DAF4008A002F /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B731A528C5DAF4008A002F /* BaseButton.swift */; };
+		45B731AA28C5DBCA008A002F /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B731A928C5DBCA008A002F /* SelectionView.swift */; };
+		45B731AF28C61070008A002F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B731AE28C61070008A002F /* APIManager.swift */; };
+		509350257E1ADAAE339FF96F /* Pods_Mars_Curiosity_Mars_CuriosityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0118FD62F0810AE0CBBA3046 /* Pods_Mars_Curiosity_Mars_CuriosityUITests.framework */; };
+		9F208138BF85C7CD2113307A /* Pods_Mars_CuriosityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1737ADF29033DFEE4EFD7C0B /* Pods_Mars_CuriosityTests.framework */; };
+		BA1125B3822D1DBCE1895A48 /* Pods_Mars_Curiosity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BC46BD7313F96CA7C3DDA5 /* Pods_Mars_Curiosity.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +69,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0118FD62F0810AE0CBBA3046 /* Pods_Mars_Curiosity_Mars_CuriosityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mars_Curiosity_Mars_CuriosityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FCD805811CACBB701B894A9 /* Pods-Mars-Curiosity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mars-Curiosity.release.xcconfig"; path = "Target Support Files/Pods-Mars-Curiosity/Pods-Mars-Curiosity.release.xcconfig"; sourceTree = "<group>"; };
+		1737ADF29033DFEE4EFD7C0B /* Pods_Mars_CuriosityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mars_CuriosityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5E0A67683851E4F07160BA /* Pods-Mars-CuriosityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mars-CuriosityTests.release.xcconfig"; path = "Target Support Files/Pods-Mars-CuriosityTests/Pods-Mars-CuriosityTests.release.xcconfig"; sourceTree = "<group>"; };
+		3E07F832050B71741017986F /* Pods-Mars-Curiosity-Mars-CuriosityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mars-Curiosity-Mars-CuriosityUITests.debug.xcconfig"; path = "Target Support Files/Pods-Mars-Curiosity-Mars-CuriosityUITests/Pods-Mars-Curiosity-Mars-CuriosityUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4511950128C8A8C20029ED08 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		45184EAC28C732F100672FDC /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
+		45184EAE28C7331500672FDC /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		45184EB028C7333E00672FDC /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		45184EB228C7340500672FDC /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		45184EB428C7344200672FDC /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
+		45184EB728C736B600672FDC /* CameraType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraType.swift; sourceTree = "<group>"; };
+		45184EB928C7499500672FDC /* MainViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewPresenter.swift; sourceTree = "<group>"; };
+		45184EBC28C74D6200672FDC /* PhotoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListViewController.swift; sourceTree = "<group>"; };
+		45184EC028C7544500672FDC /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		45184EC228C7554D00672FDC /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		45184EC428C7978A00672FDC /* PhotoCollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		45184EC628C797EE00672FDC /* PhotoListViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListViewPresenter.swift; sourceTree = "<group>"; };
+		45184EC828C7984C00672FDC /* PhotoViewModelResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModelResponse.swift; sourceTree = "<group>"; };
+		45184ECB28C79AC700672FDC /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		45184ECD28C7AF4500672FDC /* RequestPhotoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestPhotoList.swift; sourceTree = "<group>"; };
+		45184ED128C7BC0000672FDC /* AlertTrait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTrait.swift; sourceTree = "<group>"; };
+		45184ED928C89A7C00672FDC /* PhotoDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailPresenter.swift; sourceTree = "<group>"; };
 		4520C12728C58F9F004DBC92 /* Mars-Curiosity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mars-Curiosity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4520C12A28C58F9F004DBC92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4520C12C28C58F9F004DBC92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4520C12E28C58F9F004DBC92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4520C13128C58F9F004DBC92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4520C12E28C58F9F004DBC92 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4520C13328C58FA1004DBC92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4520C13628C58FA1004DBC92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4520C13828C58FA1004DBC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +104,21 @@
 		4520C14728C58FA1004DBC92 /* Mars-CuriosityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mars-CuriosityUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4520C14B28C58FA1004DBC92 /* Mars_CuriosityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mars_CuriosityUITests.swift; sourceTree = "<group>"; };
 		4520C14D28C58FA1004DBC92 /* Mars_CuriosityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mars_CuriosityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4520C15A28C593CB004DBC92 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		4520C15E28C5A900004DBC92 /* Dosis-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-Medium.ttf"; sourceTree = "<group>"; };
+		4520C15F28C5A900004DBC92 /* Dosis-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-Regular.ttf"; sourceTree = "<group>"; };
+		4520C16028C5A900004DBC92 /* Dosis-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-ExtraBold.ttf"; sourceTree = "<group>"; };
+		4520C16128C5A900004DBC92 /* Dosis-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-SemiBold.ttf"; sourceTree = "<group>"; };
+		4520C16228C5A900004DBC92 /* Dosis-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-Bold.ttf"; sourceTree = "<group>"; };
+		4520C16328C5A900004DBC92 /* Dosis-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-ExtraLight.ttf"; sourceTree = "<group>"; };
+		4520C16428C5A900004DBC92 /* Dosis-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-Light.ttf"; sourceTree = "<group>"; };
+		45B731A528C5DAF4008A002F /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
+		45B731A928C5DBCA008A002F /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		45B731AE28C61070008A002F /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		7D48D52FE499A0E5701097F4 /* Pods-Mars-CuriosityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mars-CuriosityTests.debug.xcconfig"; path = "Target Support Files/Pods-Mars-CuriosityTests/Pods-Mars-CuriosityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D09472217213F0AB0900EF94 /* Pods-Mars-Curiosity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mars-Curiosity.debug.xcconfig"; path = "Target Support Files/Pods-Mars-Curiosity/Pods-Mars-Curiosity.debug.xcconfig"; sourceTree = "<group>"; };
+		EFD842DC694FC03D2A1C6655 /* Pods-Mars-Curiosity-Mars-CuriosityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mars-Curiosity-Mars-CuriosityUITests.release.xcconfig"; path = "Target Support Files/Pods-Mars-Curiosity-Mars-CuriosityUITests/Pods-Mars-Curiosity-Mars-CuriosityUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F9BC46BD7313F96CA7C3DDA5 /* Pods_Mars_Curiosity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mars_Curiosity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +126,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45184ED828C88AAB00672FDC /* Kingfisher in Frameworks */,
+				451719A128C5B4AF001F57F8 /* SnapKit in Frameworks */,
+				BA1125B3822D1DBCE1895A48 /* Pods_Mars_Curiosity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F208138BF85C7CD2113307A /* Pods_Mars_CuriosityTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +144,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				509350257E1ADAAE339FF96F /* Pods_Mars_Curiosity_Mars_CuriosityUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28F6CE2957528C743D3F1CD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9BC46BD7313F96CA7C3DDA5 /* Pods_Mars_Curiosity.framework */,
+				0118FD62F0810AE0CBBA3046 /* Pods_Mars_Curiosity_Mars_CuriosityUITests.framework */,
+				1737ADF29033DFEE4EFD7C0B /* Pods_Mars_CuriosityTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45184EB628C736A300672FDC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				45184EB728C736B600672FDC /* CameraType.swift */,
+				45184EC228C7554D00672FDC /* CameraModel.swift */,
+				45184EC828C7984C00672FDC /* PhotoViewModelResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		45184EBB28C74D2200672FDC /* PhotoListModule */ = {
+			isa = PBXGroup;
+			children = (
+				45184EBC28C74D6200672FDC /* PhotoListViewController.swift */,
+				45184EC428C7978A00672FDC /* PhotoCollectionViewDataSource.swift */,
+				45184EC628C797EE00672FDC /* PhotoListViewPresenter.swift */,
+				45184ECD28C7AF4500672FDC /* RequestPhotoList.swift */,
+			);
+			path = PhotoListModule;
+			sourceTree = "<group>";
+		};
+		45184ECA28C79AB200672FDC /* PhotoDetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				45184ECB28C79AC700672FDC /* PhotoDetailViewController.swift */,
+				45184ED928C89A7C00672FDC /* PhotoDetailPresenter.swift */,
+			);
+			path = PhotoDetailModule;
+			sourceTree = "<group>";
+		};
 		4520C11E28C58F9F004DBC92 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +198,8 @@
 				4520C14028C58FA1004DBC92 /* Mars-CuriosityTests */,
 				4520C14A28C58FA1004DBC92 /* Mars-CuriosityUITests */,
 				4520C12828C58F9F004DBC92 /* Products */,
+				BB661030C99981DEA15D0EDD /* Pods */,
+				28F6CE2957528C743D3F1CD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +216,13 @@
 		4520C12928C58F9F004DBC92 /* Mars-Curiosity */ = {
 			isa = PBXGroup;
 			children = (
+				45184EB628C736A300672FDC /* Models */,
+				45B731AB28C60FFB008A002F /* Network */,
+				45B731A428C5DAE4008A002F /* Common */,
+				4520C16F28C5A976004DBC92 /* Resources */,
+				45B731AD28C61018008A002F /* Screens */,
 				4520C12A28C58F9F004DBC92 /* AppDelegate.swift */,
 				4520C12C28C58F9F004DBC92 /* SceneDelegate.swift */,
-				4520C12E28C58F9F004DBC92 /* ViewController.swift */,
-				4520C13028C58F9F004DBC92 /* Main.storyboard */,
-				4520C13328C58FA1004DBC92 /* Assets.xcassets */,
 				4520C13528C58FA1004DBC92 /* LaunchScreen.storyboard */,
 				4520C13828C58FA1004DBC92 /* Info.plist */,
 			);
@@ -127,6 +246,95 @@
 			path = "Mars-CuriosityUITests";
 			sourceTree = "<group>";
 		};
+		4520C15C28C5A8AC004DBC92 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4520C16C28C5A90D004DBC92 /* Dosis */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4520C16C28C5A90D004DBC92 /* Dosis */ = {
+			isa = PBXGroup;
+			children = (
+				4520C16228C5A900004DBC92 /* Dosis-Bold.ttf */,
+				4520C16028C5A900004DBC92 /* Dosis-ExtraBold.ttf */,
+				4520C16328C5A900004DBC92 /* Dosis-ExtraLight.ttf */,
+				4520C16428C5A900004DBC92 /* Dosis-Light.ttf */,
+				4520C15E28C5A900004DBC92 /* Dosis-Medium.ttf */,
+				4520C15F28C5A900004DBC92 /* Dosis-Regular.ttf */,
+				4520C16128C5A900004DBC92 /* Dosis-SemiBold.ttf */,
+			);
+			path = Dosis;
+			sourceTree = "<group>";
+		};
+		4520C16D28C5A91F004DBC92 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				4520C12E28C58F9F004DBC92 /* MainViewController.swift */,
+				45184EB928C7499500672FDC /* MainViewPresenter.swift */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		4520C16F28C5A976004DBC92 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4520C15C28C5A8AC004DBC92 /* Fonts */,
+				4520C13328C58FA1004DBC92 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		45B731A428C5DAE4008A002F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4520C15A28C593CB004DBC92 /* Builder.swift */,
+				45B731A528C5DAF4008A002F /* BaseButton.swift */,
+				45B731A928C5DBCA008A002F /* SelectionView.swift */,
+				45184EC028C7544500672FDC /* Router.swift */,
+				45184ED128C7BC0000672FDC /* AlertTrait.swift */,
+				4511950128C8A8C20029ED08 /* BaseViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		45B731AB28C60FFB008A002F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				45B731AE28C61070008A002F /* APIManager.swift */,
+				45184EAC28C732F100672FDC /* RequestProtocol.swift */,
+				45184EAE28C7331500672FDC /* HTTPMethod.swift */,
+				45184EB028C7333E00672FDC /* NetworkError.swift */,
+				45184EB228C7340500672FDC /* RequestManager.swift */,
+				45184EB428C7344200672FDC /* DataParser.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		45B731AD28C61018008A002F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				45184ECA28C79AB200672FDC /* PhotoDetailModule */,
+				45184EBB28C74D2200672FDC /* PhotoListModule */,
+				4520C16D28C5A91F004DBC92 /* MainModule */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		BB661030C99981DEA15D0EDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D09472217213F0AB0900EF94 /* Pods-Mars-Curiosity.debug.xcconfig */,
+				0FCD805811CACBB701B894A9 /* Pods-Mars-Curiosity.release.xcconfig */,
+				3E07F832050B71741017986F /* Pods-Mars-Curiosity-Mars-CuriosityUITests.debug.xcconfig */,
+				EFD842DC694FC03D2A1C6655 /* Pods-Mars-Curiosity-Mars-CuriosityUITests.release.xcconfig */,
+				7D48D52FE499A0E5701097F4 /* Pods-Mars-CuriosityTests.debug.xcconfig */,
+				3D5E0A67683851E4F07160BA /* Pods-Mars-CuriosityTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,15 +342,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4520C15128C58FA1004DBC92 /* Build configuration list for PBXNativeTarget "Mars-Curiosity" */;
 			buildPhases = (
+				17E4D8C58FE79C2C5C07B624 /* [CP] Check Pods Manifest.lock */,
 				4520C12328C58F9F004DBC92 /* Sources */,
 				4520C12428C58F9F004DBC92 /* Frameworks */,
 				4520C12528C58F9F004DBC92 /* Resources */,
+				42A810FD3FB36712950760A0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Mars-Curiosity";
+			packageProductDependencies = (
+				451719A028C5B4AF001F57F8 /* SnapKit */,
+				45184ED728C88AAB00672FDC /* Kingfisher */,
+			);
 			productName = "Mars-Curiosity";
 			productReference = 4520C12728C58F9F004DBC92 /* Mars-Curiosity.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +365,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4520C15428C58FA1004DBC92 /* Build configuration list for PBXNativeTarget "Mars-CuriosityTests" */;
 			buildPhases = (
+				0FE7C4345E182BD2D9A15FA3 /* [CP] Check Pods Manifest.lock */,
 				4520C13928C58FA1004DBC92 /* Sources */,
 				4520C13A28C58FA1004DBC92 /* Frameworks */,
 				4520C13B28C58FA1004DBC92 /* Resources */,
@@ -169,9 +384,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4520C15728C58FA1004DBC92 /* Build configuration list for PBXNativeTarget "Mars-CuriosityUITests" */;
 			buildPhases = (
+				D944538789C61FBCDB620F85 /* [CP] Check Pods Manifest.lock */,
 				4520C14328C58FA1004DBC92 /* Sources */,
 				4520C14428C58FA1004DBC92 /* Frameworks */,
 				4520C14528C58FA1004DBC92 /* Resources */,
+				F219B2158765DD2E8528AB49 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +432,10 @@
 				Base,
 			);
 			mainGroup = 4520C11E28C58F9F004DBC92;
+			packageReferences = (
+				4517199F28C5B4AE001F57F8 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				45184ED628C88AAB00672FDC /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 4520C12828C58F9F004DBC92 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,9 +452,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4520C16528C5A900004DBC92 /* Dosis-Medium.ttf in Resources */,
+				4520C16728C5A900004DBC92 /* Dosis-ExtraBold.ttf in Resources */,
+				4520C16A28C5A900004DBC92 /* Dosis-ExtraLight.ttf in Resources */,
+				4520C16928C5A900004DBC92 /* Dosis-Bold.ttf in Resources */,
+				4520C16628C5A900004DBC92 /* Dosis-Regular.ttf in Resources */,
 				4520C13728C58FA1004DBC92 /* LaunchScreen.storyboard in Resources */,
 				4520C13428C58FA1004DBC92 /* Assets.xcassets in Resources */,
-				4520C13228C58F9F004DBC92 /* Main.storyboard in Resources */,
+				4520C16828C5A900004DBC92 /* Dosis-SemiBold.ttf in Resources */,
+				4520C16B28C5A900004DBC92 /* Dosis-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +480,139 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0FE7C4345E182BD2D9A15FA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mars-CuriosityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17E4D8C58FE79C2C5C07B624 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mars-Curiosity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42A810FD3FB36712950760A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mars-Curiosity/Pods-Mars-Curiosity-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mars-Curiosity/Pods-Mars-Curiosity-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mars-Curiosity/Pods-Mars-Curiosity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D944538789C61FBCDB620F85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mars-Curiosity-Mars-CuriosityUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F219B2158765DD2E8528AB49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mars-Curiosity-Mars-CuriosityUITests/Pods-Mars-Curiosity-Mars-CuriosityUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mars-Curiosity-Mars-CuriosityUITests/Pods-Mars-Curiosity-Mars-CuriosityUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mars-Curiosity-Mars-CuriosityUITests/Pods-Mars-Curiosity-Mars-CuriosityUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4520C12328C58F9F004DBC92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4520C12F28C58F9F004DBC92 /* ViewController.swift in Sources */,
+				4520C12F28C58F9F004DBC92 /* MainViewController.swift in Sources */,
+				45B731A628C5DAF4008A002F /* BaseButton.swift in Sources */,
+				45184EC328C7554D00672FDC /* CameraModel.swift in Sources */,
+				45184ECC28C79AC700672FDC /* PhotoDetailViewController.swift in Sources */,
+				45184EBA28C7499500672FDC /* MainViewPresenter.swift in Sources */,
+				45184ED228C7BC0000672FDC /* AlertTrait.swift in Sources */,
+				45184EB528C7344200672FDC /* DataParser.swift in Sources */,
 				4520C12B28C58F9F004DBC92 /* AppDelegate.swift in Sources */,
+				45184EC528C7978A00672FDC /* PhotoCollectionViewDataSource.swift in Sources */,
+				45184ECE28C7AF4500672FDC /* RequestPhotoList.swift in Sources */,
+				45184EBD28C74D6200672FDC /* PhotoListViewController.swift in Sources */,
+				45184EB828C736B600672FDC /* CameraType.swift in Sources */,
+				4511950228C8A8C20029ED08 /* BaseViewController.swift in Sources */,
+				45184EAD28C732F100672FDC /* RequestProtocol.swift in Sources */,
+				45184EC128C7544500672FDC /* Router.swift in Sources */,
+				4520C15B28C593CB004DBC92 /* Builder.swift in Sources */,
+				45184EC928C7984C00672FDC /* PhotoViewModelResponse.swift in Sources */,
+				45184EC728C797EE00672FDC /* PhotoListViewPresenter.swift in Sources */,
+				45184EAF28C7331500672FDC /* HTTPMethod.swift in Sources */,
 				4520C12D28C58F9F004DBC92 /* SceneDelegate.swift in Sources */,
+				45184EB328C7340500672FDC /* RequestManager.swift in Sources */,
+				45B731AA28C5DBCA008A002F /* SelectionView.swift in Sources */,
+				45B731AF28C61070008A002F /* APIManager.swift in Sources */,
+				45184EDA28C89A7C00672FDC /* PhotoDetailPresenter.swift in Sources */,
+				45184EB128C7333E00672FDC /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +649,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4520C13028C58F9F004DBC92 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4520C13128C58F9F004DBC92 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4520C13528C58FA1004DBC92 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +776,7 @@
 		};
 		4520C15228C58FA1004DBC92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D09472217213F0AB0900EF94 /* Pods-Mars-Curiosity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,7 +787,6 @@
 				INFOPLIST_FILE = "Mars-Curiosity/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -454,12 +798,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		4520C15328C58FA1004DBC92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FCD805811CACBB701B894A9 /* Pods-Mars-Curiosity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -470,7 +815,6 @@
 				INFOPLIST_FILE = "Mars-Curiosity/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -482,12 +826,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		4520C15528C58FA1004DBC92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D48D52FE499A0E5701097F4 /* Pods-Mars-CuriosityTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +853,7 @@
 		};
 		4520C15628C58FA1004DBC92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D5E0A67683851E4F07160BA /* Pods-Mars-CuriosityTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +874,7 @@
 		};
 		4520C15828C58FA1004DBC92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E07F832050B71741017986F /* Pods-Mars-Curiosity-Mars-CuriosityUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +893,7 @@
 		};
 		4520C15928C58FA1004DBC92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFD842DC694FC03D2A1C6655 /* Pods-Mars-Curiosity-Mars-CuriosityUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -602,6 +950,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4517199F28C5B4AE001F57F8 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		45184ED628C88AAB00672FDC /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		451719A028C5B4AF001F57F8 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4517199F28C5B4AE001F57F8 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		45184ED728C88AAB00672FDC /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45184ED628C88AAB00672FDC /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4520C11F28C58F9F004DBC92 /* Project object */;
 }

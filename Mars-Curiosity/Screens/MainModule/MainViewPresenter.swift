@@ -30,6 +30,6 @@ class MainViewPresenter: MainViewPresenterProtocol {
     }
     
     func getToNextScreen(data: CameraModel) {
-        router?.showPhotos(data: data)
+        router?.showPhotosVC(data: data)
     }
 }
